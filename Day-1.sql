@@ -1,0 +1,11 @@
+/* Retrieve all columns from the `patients` table. */
+select * from patients;
+
+/* Select only the `patient_id`, `name`, and `age` columns from the `patients` table. */
+select patient_id,name,age from patients;
+
+/* Display the first 10 records from the `services_weekly` table. */
+select * from services_weekly limit 10;
+
+/*  List all unique hospital services available in the hospital. */
+select distinct service as unique_hospital_services from services_weekly;
